@@ -1,0 +1,46 @@
+#h1
+{
+    color: #05386b;
+    text-align: center;
+    font-size: 0.5in;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#body
+{
+    background-color: #379683 ;
+}
+img
+{
+     size: 0.5in;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 50%;
+}
+#table 
+{
+     margin-left:auto; 
+     margin-right:auto;
+}
+#buttonselection
+{
+    background-color: #05386b;
+    border: none;
+    color: #EDF5E1;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#form{
+
+    text-align: center;
+}
+#searchbox {
+
+    height: 100px;
+    width: 50px;
+}

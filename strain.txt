@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>    Questions      </title>
+      <link rel="icon" href="data:,">
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="stylesheet" href="{{ url_for('static', filename='style/pagestyles.css')}}">
+   </head>
+
+   <body id = "body">
+
+             <h1 id="h1">Here are the list of Strains we recommend</h1>
+
+             <form id="form_" action="{{ url_for("strains") }}" method="POST">
+               <input type = "text" placeholder="search..." name="search">
+               <button type="submit">search</button>
+             </form>
+
+                       
+            <!--{{straincheck}}-->
+             <!--{{data}}
+             <style>
+
+               td {
+                     width: 150px;
+                    text-align: center;
+                     border: 1px solid black;
+                     padding: 5px;
+                  
+             </style>-->
+           
+             <table>
+                {{table | safe}}
+             </table>
+   </body>
+</html>
